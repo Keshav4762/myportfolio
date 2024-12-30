@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import profilePic from "../assets/kevinRushProfile.png"
+import profilePic from "../assets/kkprofile2.jpg"
 
 const Hero = () => {
   return (
@@ -13,9 +13,9 @@ const Hero = () => {
                     <p className='my-2 max-w-xl py-6 font-light tracking-tighter '>{HERO_CONTENT}</p>
                 </div>
             </div>
-            <div className='wfu lg:w-1/2 lg:p-8 '>
-                <div className='flex justify-center'>
-                    <img src={profilePic} alt="" />
+            <div className=' items-center w-full lg:w-1/2 lg:p-8 '>
+                <div className='flex linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) drop-shadow-2xl opacity-50 justify-center items-center'>
+                    <img className='flex rounded-3xl justify-center items-center ' src={profilePic} alt="" />
                 </div>
             </div>
         </div>
