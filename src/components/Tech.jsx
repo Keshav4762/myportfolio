@@ -11,19 +11,19 @@ const Tech = () => {
         <h1 className='my-20 text-center text-4xl'>Technologies</h1>
 
         <div className='flex flex-wrap items-center justify-center gap-4'>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4 hover:bg-blue-50 cursor-pointer'>
                 <RiReactjsLine className='text-7xl text-cyan-400' />
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4 hover:bg-blue-50 cursor-pointer'>
                 <RiNextjsLine className='text-7xl' />
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4 hover:bg-blue-50 cursor-pointer'>
                 <SiMongodb className='text-7xl text-green-500' />
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4 hover:bg-blue-50 cursor-pointer'>
                 <RiTailwindCssFill className='text-7xl text-cyan-400' />
             </div>
-            <div className='rounded-2xl border-4 border-neutral-800 p-4'>
+            <div className='rounded-2xl border-4 border-neutral-800 p-4 hover:bg-blue-50 cursor-pointer'>
                 <IoLogoNodejs className='text-7xl text-green-500' />
             </div>
             
