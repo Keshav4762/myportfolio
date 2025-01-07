@@ -6,8 +6,37 @@ import Tech from "./components/Tech";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Hero />,
+    },
+    {
+      path: "/about",
+      element: <About />,
+    },
+    {
+      path: "/tech",
+      element: <Tech />,
+    },
+    {
+      path: "/experience",
+      element: <Experience />,
+    },
+    {
+      path: "/projects",
+      element: <Projects />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
+    },
+  ]);
+
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900 ">
       <div className="fixed top-0 -z-10 h-full w-full">
@@ -15,6 +44,17 @@ const App = () => {
       </div>
 
       <div className="container mx-auto px-8">
+        {/* <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/tech" element={<Tech />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter> */}
         <Navbar />
         <Hero />
         <About />
@@ -23,7 +63,6 @@ const App = () => {
         <Projects />
         <Contact />
       </div>
-      
     </div>
   );
 };
