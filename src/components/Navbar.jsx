@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className='mb-20 flex items-center justify-between py-6'>
         <div className='flex flex-shrink-0 items-center '>
-            <img className='mx2 w-10' src={logo} alt="logo" />
+            <motion.h1 whileHover={{ scale: 1.5, transition:{duration:0.3}}} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='text-4xl font-bold cursor-default'>KK</motion.h1>
         </div>
         {/* <div>
         <ul className="flex space-x-6">
@@ -26,11 +26,16 @@ const Navbar = () => {
         </ul>
         </div> */}
         <div className='m-8 flex items-center justify-center gap-4 text-2xl '>
-            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.linkedin.com/in/keshav-kartik-sharma-b7b928238/"><FaLinkedin /></motion.a>
-            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://github.com/Keshav4762"><FaGithub /></motion.a>
-            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.instagram.com/keshavk_4762/"><FaInstagram /></motion.a>
-            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://x.com/keshav4762"><BsTwitterX /></motion.a>
-            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.codechef.com/users/keshav4762"><SiCodechef /></motion.a>
+            <motion.a whileHover={{ scale: 1.5, rotate:360, transition:{duration:0.5}}} initial={{ scale: 1, rotate: 0 }} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='hover:text-blue-500' target='_blank' href="https://www.linkedin.com/in/keshav-kartik-sharma-b7b928238/"><FaLinkedin /></motion.a>
+
+            <motion.a whileHover={{ scale: 1.5, rotate:360, transition:{duration:0.5}}} initial={{ scale: 1, rotate: 0 }} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='hover:text-blue-500' target='_blank' href="https://github.com/Keshav4762"><FaGithub /></motion.a>
+
+            <motion.a whileHover={{ scale: 1.5, rotate:360, transition:{duration:0.5}}} initial={{ scale: 1, rotate: 0 }} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='hover:text-blue-500' target='_blank' href="https://www.instagram.com/keshavk_4762/"><FaInstagram /></motion.a>
+
+            <motion.a whileHover={{ scale: 1.5, rotate:360, transition:{duration:0.5}}} initial={{ scale: 1, rotate: 0 }} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='hover:text-blue-500' target='_blank' href="https://x.com/keshav4762"><BsTwitterX /></motion.a>
+
+            <motion.a whileHover={{ scale: 1.5, rotate:360, transition:{duration:0.5}}} initial={{ scale: 1, rotate: 0 }} animate={{ scale: 1, rotate: 0, transition: { duration: 0.5 } }} className='hover:text-blue-500' target='_blank' href="https://www.codechef.com/users/keshav4762"><SiCodechef /></motion.a>
+
         </div>
     </nav>
 )
