@@ -26,11 +26,11 @@ const Navbar = () => {
         </ul>
         </div> */}
         <div className='m-8 flex items-center justify-center gap-4 text-2xl '>
-            <motion.a whileHover={{ scale: 1.4 }} className='hover:text-blue-500' target='_blank' href="https://www.linkedin.com/in/keshav-kartik-sharma-b7b928238/"><FaLinkedin /></motion.a>
-            <motion.a whileHover={{ scale: 1.4 }} className='hover:text-blue-500' target='_blank' href="https://github.com/Keshav4762"><FaGithub /></motion.a>
-            <motion.a whileHover={{ scale: 1.4 }} className='hover:text-blue-500' target='_blank' href="https://www.instagram.com/keshavk_4762/"><FaInstagram /></motion.a>
-            <motion.a whileHover={{ scale: 1.4 }} className='hover:text-blue-500' target='_blank' href="https://x.com/keshav4762"><BsTwitterX /></motion.a>
-            <motion.a whileHover={{ scale: 1.4 }} className='hover:text-blue-500' target='_blank' href="https://www.codechef.com/users/keshav4762"><SiCodechef /></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.linkedin.com/in/keshav-kartik-sharma-b7b928238/"><FaLinkedin /></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://github.com/Keshav4762"><FaGithub /></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.instagram.com/keshavk_4762/"><FaInstagram /></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://x.com/keshav4762"><BsTwitterX /></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} className='hover:text-blue-500' target='_blank' href="https://www.codechef.com/users/keshav4762"><SiCodechef /></motion.a>
         </div>
     </nav>
 )
