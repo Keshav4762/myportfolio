@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
@@ -63,6 +64,21 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
 ];
+
+export const ACHIEVEMENTS = [
+  {
+    title: "GATE 2024",
+    description: "Qualified GATE exam in field of 'Data Science and Artificial Intelligence' in first attempt."
+  },
+  {
+    title: "DSA Questions",
+    description: "Solved 400+ programming question on various platforms like Leetcode, Codechef, Hackerrank etc."
+  },
+  {
+    title: "Elitmus PH Test",
+    description: "Scored 90 percentile in Elitmus PH test."
+  }
+]
 
 export const CONTACT = {
   address: "767 Fifth Avenue, New York, NY 10153 ",

@@ -6,6 +6,7 @@ import Tech from "./components/Tech";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import { Achievement } from "./components/Achievement";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
 
@@ -24,6 +25,7 @@ const App = () => {
         <Tech />
         {/* <Experience /> */}
         <Projects />
+        <Achievement />
         <Contact />
       </div>
     </div>
